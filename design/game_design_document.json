@@ -1,0 +1,113 @@
+{
+  "title": "Step Multiply",
+  "hook": "Master two digit multiplication step",
+  "game_overview": "Math learning game with Area Model and Standard Algorithm modes. Configure factor lengths (2-4 digits by 1-2 digits) with guided step-by-step problem solving.",
+  "artstyle": "modern-vector",
+  "genre": "puzzle",
+  "winning_condition": "Successfully complete all 10 multiplication problems in a round to earn the Master Mathematician trophy.",
+  "losing_condition": "Make 3 uncorrected mistakes on a single problem before completing all required calculation steps.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape",
+    "portrait",
+    "wide",
+    "any"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse",
+    "keyboard",
+    "dpad"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": true,
+  "mobile_playable": true,
+  "tv_playable": true,
+  "language": [
+    "en"
+  ],
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "Numeric Keys (0-9) / Virtual Keypad",
+      "action": "Input calculated digits into the active highlighted step box."
+    },
+    {
+      "input": "Enter / Submit Button",
+      "action": "Validate the current digit input and advance to the next multiplication or addition step."
+    },
+    {
+      "input": "Backspace / Clear Button",
+      "action": "Delete the current active digit entry to re-type."
+    },
+    {
+      "input": "Hint / Help Button",
+      "action": "Reveal the sub-problem equation (e.g. 7 x 4 = 28, write 8 carry 2) for immediate assistance."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Design Pillars",
+      "content": "1. Crystal Clear Scaffolding: Break complex 2-digit by 2-digit multiplication down into atomic, unambiguous calculation sub-steps. 2. Positive Reinforcement: Celebrate each correct intermediate digit with joyful visual feedback while offering constructive hints on mistakes. 3. Visual Spatial Alignment: Highlight the exact column digits and carry boxes being operated on so students never lose their place.",
+      "summary": "Core pedagogical and design fundamentals."
+    },
+    {
+      "title": "Core Loop",
+      "content": "The student receives a random 2-digit by 2-digit multiplication problem (e.g., 34 x 27). The game highlights the active calculation step in order: Step 1 (Bottom Ones x Top Ones + carry), Step 2 (Bottom Ones x Top Tens + carry), Step 3 (Place holder zero in tens row), Step 4 (Bottom Tens x Top Ones + carry), Step 5 (Bottom Tens x Top Tens + carry), Step 6 (Column-by-column addition of partial products to get the final sum). Completing the problem awards stars and score points, advancing to the next challenge across 10-problem rounds.",
+      "summary": "Step-by-step problem lifecycle and progression."
+    },
+    {
+      "title": "Step-by-Step Multiplication Mechanics",
+      "content": "Each step highlights the two active digits in bright cyan and amber color codes. Above the problem are designated carry boxes for both sub-steps. When a sub-product has a carry (e.g. 7 x 4 = 28), the student is prompted to write the ones digit '8' in the answer row and the carry digit '2' in the top carry box. If the student inputs an incorrect digit, a gentle shake animation occurs, the mistake counter ticks up (max 3 allowed per problem), and an optional visual scratchpad shows the breakdown.",
+      "summary": "Granular algorithmic rules and active input focus."
+    },
+    {
+      "title": "Movement & Scrolling Alignment",
+      "content": "Scrolling Axis: Static Single Screen (No scrolling). Asset Orientation: Top-down structured math matrix with right-to-left standard arithmetic column alignment. Movement Physics Dynamics: Discrete UI transitions and soft spring animations for number reveals and carry fly-overs. Camera Behavior: Locked static camera centered on the interactive math worksheet board.",
+      "summary": "Static canvas layout with responsive focal grid."
+    },
+    {
+      "title": "Visual Hierarchy & Layering",
+      "content": "Layer Separation: The background layer features a subtle, desaturated modern classroom vector motif. The central playfield features an oversized, high-contrast mathematical card with clean grid borders, bold digits, and glowing active cells. Obstacle & Hazard Affordance: Error states flash with a soft coral pulse; active cells glow with energetic electric teal; completed correct steps lock into deep emerald green with a checkmark.",
+      "summary": "Crisp mathematical chalkboard interface with high-contrast active cells."
+    },
+    {
+      "title": "Characters & Guides",
+      "content": "Features Professor Hoot, a friendly cartoon owl math tutor in a graduation cap who offers real-time encouraging speech bubbles, celebratory hops upon completing problems, and supportive advice when students need a hint.",
+      "summary": "Supportive math mascot companion."
+    },
+    {
+      "title": "Fairness Tools & Scaffolding",
+      "content": "1. Step Guide Banner: Text banner explicitly describing the active operation (e.g., 'Multiply bottom ones digit (7) by top ones digit (4)'). 2. Sub-Multiplication Helper: Optional side drawer showing the times-table reference for the active digits. 3. Auto-Place-Zero Mode: Toggleable option for beginners to automatically place the tens placeholder zero or require manual placement.",
+      "summary": "Built-in learning aids to ensure frustration-free mastery."
+    },
+    {
+      "title": "Juice & Game Feel",
+      "content": "Anticipation Juice: Bouncy button hover and active box pulsing outline. State Change Juice: Digit fly-in animations where carried numbers smoothly float up to the carry box. Impact Juice: Golden star burst and colorful confetti explosion when the final sum is verified, accompanied by an uplifting chime chord.",
+      "summary": "Sensory rewards and celebratory micro-interactions."
+    },
+    {
+      "title": "Solvability & Problem Progression",
+      "content": "Tier 1 (Beginner): 2-digit numbers with no carries in single-digit multiplications (e.g. 21 x 13). Tier 2 (Intermediate): Single carries in ones or tens place (e.g. 34 x 15). Tier 3 (Advanced): Full carries across both rows and addition regrouping (e.g. 68 x 47). Every generated problem is pre-computed and stored with its complete step tree to ensure 100% deterministic validation.",
+      "summary": "Algorithmic generation with guaranteed pedagogical pacing."
+    },
+    {
+      "title": "Accessibility & Inclusivity",
+      "content": "Large touch targets (>48px) on all virtual number pads, high-contrast color palette compliant with WCAG AAA standards, keyboard number input support, sound toggle controls, and adjustable problem timer (or untimed practice mode).",
+      "summary": "Comprehensive features for diverse student needs."
+    },
+    {
+      "title": "Structural Integrity",
+      "content": "Start Screen (Select Difficulty / Practice Mode) -> Step-by-Step Worksheet Game Board -> Step Completion Celebrations -> Round Summary (Total Score, Accuracy Rate, Mastery Certificate) -> Option to Restart or Try Harder Level.",
+      "summary": "Menu, practice levels, and report card flow."
+    },
+    {
+      "title": "Virtual Touch Controls Implementation",
+      "content": "Render on-screen virtual numeric keypad (digits 0-9, backspace, enter, and hint button) overlaying or adjacent to the math worksheet board. These buttons have high touch responsiveness with touch-none CSS to prevent inadvertent page bouncing, and handle onPointerDown/onPointerUp cleanly for all mobile, tablet, and desktop viewports.",
+      "summary": "Integrated on-screen number pad and responsive action controls."
+    }
+  ]
+}

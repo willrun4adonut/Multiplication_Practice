@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bgm_study_math",
+    "name": "Study Groove BGM",
+    "art_style": "modern-vector",
+    "category": null,
+    "media_type": "music",
+    "description": "Study Groove BGM",
+    "aspect_ratio": null,
+    "usage": "Main background music loop playing seamlessly during gameplay",
+    "chroma_key": false,
+    "prompt": "80 BPM, relaxed cozy acoustic study music, gentle acoustic guitar chords, warm marimba melodies, soft upright piano notes, subtle brush percussion, positive inspiring major scale, seamless loop",
+    "actions": null,
+    "resolution": null
+  },
+  {
+    "id": "trophy_mastery_icon",
+    "name": "Mastery Trophy",
+    "art_style": "modern-vector",
+    "category": null,
+    "media_type": "image_other",
+    "description": "Mastery Trophy",
+    "aspect_ratio": "1:1",
+    "usage": "Displayed on the round victory summary screen upon completing 10 problems",
+    "chroma_key": true,
+    "prompt": "A gleaming golden math champion trophy cup with dual curved handles, mounted on a solid cubic mahogany base with a small blue ribbon rosette, centered, modern vector artstyle, zero commercial icons, new design, completely independent styling",
+    "actions": null,
+    "resolution": "1K"
+  },
+  {
+    "id": "star_reward_icon",
+    "name": "Gold Reward Star",
+    "art_style": "modern-vector",
+    "category": null,
+    "media_type": "image_other",
+    "description": "Gold Reward Star",
+    "aspect_ratio": "1:1",
+    "usage": "UI icon for problem completion stars, streak meters, and reward animations",
+    "chroma_key": true,
+    "prompt": "A bright glowing five-pointed golden star icon with smooth beveled edges, soft amber gradient, sparkling highlights, centered with generous spatial margins, modern vector artstyle, zero commercial icons, new design, completely independent styling",
+    "actions": null,
+    "resolution": "1K"
+  },
+  {
+    "id": "math_classroom_bg",
+    "name": "Math Classroom Background",
+    "art_style": "modern-vector",
+    "category": null,
+    "media_type": "image_background",
+    "description": "Math Classroom Background",
+    "aspect_ratio": "16:9",
+    "usage": "Static background backdrop for the main menu and math worksheet playfield",
+    "chroma_key": false,
+    "prompt": "A wide panoramic classroom background with a large clean chalkboard, colorful geometric math posters, soft modern wooden shelves, and bright friendly daylight streaming through windows, modern vector artstyle, zero commercial icons, new design, completely independent styling",
+    "actions": null,
+    "resolution": "1K"
+  },
+  {
+    "id": "mascot_owl_guide",
+    "name": "Professor Hoot Mascot",
+    "art_style": "modern-vector",
+    "category": null,
+    "media_type": "image_other",
+    "description": "Professor Hoot Mascot",
+    "aspect_ratio": "1:1",
+    "usage": "Displayed beside the math board to provide step instructions, speech hints, and celebratory reactions",
+    "chroma_key": true,
+    "prompt": "A cute spherical cartoon math owl professor wearing small round spectacles, a navy-blue graduation cap with a gold tassel, holding a long slender yellow pencil, centered with generous padding, modern vector artstyle, zero commercial icons, new design, completely independent styling",
+    "actions": null,
+    "resolution": "1K"
+  }
+]
