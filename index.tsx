@@ -1,16 +1,22 @@
-import {createRoot} from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import App from './App';
 
-const root = createRoot(document.getElementById('root')!);
+// Safely stub Playground global environment variables
+if (typeof window !== 'undefined') {
+  (window as any).playground = (window as any).playground || {
+    onReady: (cb: () => void) => cb(),
+    getState: () => ({}),
+    setState: () => {},
+  };
+}
 
-root.render(
-  <div
-    style={{
-      position: 'relative',
-      width: '100vw',
-      height: '100vh',
-      overflow: 'hidden',
-    }}>
-    <App />
-  </div>,
-);
+const rootElement = document.getElementById('root');
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+}
